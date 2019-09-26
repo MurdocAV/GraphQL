@@ -1,2 +1,2 @@
 # GraphQL
-Using GraphQL to Graph some queries probably
+Using GraphQL to graph some queries probably
