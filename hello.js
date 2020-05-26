@@ -2,12 +2,13 @@ var { graphql, buildSchema } = require('graphql');
 
 var schema = buildSchema(`
   type Query {
-    hello: String
+    greeting: String
   }
 `);
 
-var root = { hello: () => 'Hello world!' };
+var root = { greeting: () => 'Hello World' };
 
-graphql(schema, '{ hello }', root).then((response) => {
+graphql(schema, '{ greeting }', root)
+  .then((response) => {
   console.log(response);
-});
+  });
