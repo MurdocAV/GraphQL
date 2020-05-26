@@ -1,0 +1,24 @@
+{
+  "name": "graphqlTest",
+  "version": "1.0.0",
+  "description": "Using GraphQL to graph some queries probably",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurdocAV/GraphQL.git"
+  },
+  "keywords": [
+    "graphql",
+    "murdocav",
+    "testing"
+  ],
+  "author": "azaan virk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MurdocAV/GraphQL/issues"
+  },
+  "homepage": "https://github.com/MurdocAV/GraphQL#readme"
+}
